@@ -12,8 +12,8 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - "D:/docker-volumes/mysql/my.conf:/etc/mysql/conf.d/config-file.cnf" #"./my.conf:/etc/mysql/conf.d/config-file.cnf"
-      - "D:/docker-volumes/mysql/data:/var/lib/mysql:rw"                     # "./data:/var/lib/mysql:rw"
+      - "C:/docker-volumes/mysql/my.conf:/etc/mysql/conf.d/config-file.cnf" #"./my.conf:/etc/mysql/conf.d/config-file.cnf"
+      - "C:/docker-volumes/mysql/data:/var/lib/mysql:rw"                     # "./data:/var/lib/mysql:rw"
 
 
   adminer:
